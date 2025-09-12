@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center text-lg m-5 ">
               <h1 className="text-xl mb-5">
-                Hi I'm Rondalph Taylor
+                Hi I&aposm Rondalph Taylor
               </h1>
               <p className="w-96">
                  A Computer Science student at RPI specializing in AI and
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="flex justify-center space-x-4 m-10">
           <div className="grid grid-cols-2 grid-rows-2 h-132 w-132 border-2 border-[#9A031E] p-5 hover:scale-110 transition delay-50 duration-200 ease-in-out">
             {imgDetails.map((detail,index)=>{
-              return <img className={detail.class} src={detail.src} alt="" />
+              return <img key = {index} className={detail.class} src={detail.src} alt="" />
             })}
           </div>
           <div id = "About" className="text-center">
