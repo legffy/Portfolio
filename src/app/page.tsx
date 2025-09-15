@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center text-lg m-5 ">
               <h1 className="text-xl mb-5">
-                Hi I&aposm Rondalph Taylor
+                Hi I&apos;m Rondalph Taylor
               </h1>
               <p className="w-96">
                  A Computer Science student at RPI specializing in AI and
