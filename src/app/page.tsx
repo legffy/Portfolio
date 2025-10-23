@@ -42,7 +42,7 @@ export default function Home() {
           <div id = "Home" className="border-2 border-[#9A031E] flex w-fit p-5 shadow-md shadow-[#9A031E] bg-[#1b1b1b]">
             <div className="flex flex-col">
               <div className="m-5 w-[400px] border-2 border-[#C3A995] p-2 hover:scale-110 transition delay-75 duration-200 ease-in-out ">
-                <img className="" src="/ProfilePhoto.jpg" alt="" />
+                <img className="" src="/IMG_5748.JPG" alt="" />
               </div>
               <div className="flex space-x-5 p-4">
                 <a
@@ -69,7 +69,7 @@ export default function Home() {
                 >
                   <Github />{" "}
                 </a>
-                <a href="Resume.pdf" className="hover:scale-150 transition delay-75 duration-200 ease-in-out" target="_blank">
+                <a href="Resume (9).pdf" className="hover:scale-150 transition delay-75 duration-200 ease-in-out" target="_blank">
                   <Newspaper/>
                 </a>
               </div>
@@ -151,7 +151,7 @@ export default function Home() {
             <Github />{" "}
             <span>GitHub</span>
           </a>
-          <a href="Resume.pdf" className="hover:scale-150 transition delay-75 duration-200 ease-in-out" target="_blank">
+          <a href="Resume (9).pdf" className="hover:scale-150 transition delay-75 duration-200 ease-in-out" target="_blank">
                   <Newspaper/>
                      <span>Resume</span>
                 </a>
