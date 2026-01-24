@@ -1,7 +1,7 @@
 import { Github } from "lucide-react";
 export default function ProjectCard(props) {
   return (
-    <div className="flex justify-around border-2 border-[#9A031E] p-5 space-x-12">
+    <div className="flex justify-around w-4/5 h-96 border-2 border-[#9A031E] p-5 space-x-12">
       <div className="aspect-video w-[600px] border-2 border-[#C3A995] p-5">
         {props.yt ? (
           <iframe
@@ -14,7 +14,7 @@ export default function ProjectCard(props) {
             allowfullscreen
           ></iframe>
         ) : (
-          <img className="w-full h-full object-cover" src={props.src}></img>
+          <img className="w-96 h-full object-cover" src={props.src}></img>
         )}
       </div>
       <div className="text-base flex flex-col items-center justify-center  border-2 border-[#C3A995] p-5">
