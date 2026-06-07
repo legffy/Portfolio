@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono} from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rondalph's Portfolio",
-  description: "Rondalph's Software Engineering Portfolio",
+  title: "Rondalph Taylor | Backend Systems and AI",
+  description:
+    "Rondalph Taylor's software engineering portfolio focused on backend systems, low-level foundations, and applied AI.",
 };
 
 export default function RootLayout({
@@ -24,17 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body
-        className={`bg-[#0D0106]`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-[#0D0106]`}>
         {children}
       </body>
     </html>
